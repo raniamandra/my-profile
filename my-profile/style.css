@@ -1,0 +1,82 @@
+/* Colors and fonts */
+body {
+background:#fff1ac;
+color: #b689b0;
+font-family: 'Abel', sans-serif;
+font-size: 20px;
+}
+h1 , h2 , h3 {
+	font-family: 'Fjalla One', sans-serif;
+}
+h1 {
+	color: #fc5404;
+     font-size:60px;
+}
+h2 {
+	color: #fc5404;
+	font-size:40px;
+	font-weight:lighter;
+}
+a {
+	font-family: 'Abel' sans-serif;
+	text-decoration: none;
+	color: #fc5404;
+	font-size: 15px;
+}
+a:hover {
+	color: #f9bcdd;
+}
+
+
+
+
+/* Custom design with class */
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+.card-white {
+ 	background-color: #f9ecec;
+ 	padding: 40px;
+ 	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+ 	border-radius: 15px;
+ 	margin: 20px 0px;
+ 	text-align: center;
+ }
+.img-circle {
+	border-radius: 45%;
+}
+.btn-blue {
+	background-color: #ce1212;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: #c3aed6;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: #ce1212;
+}
+.list-inline i:hover {
+	color: #c3aed6;
+}
+/* Design adjustments using id */
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
